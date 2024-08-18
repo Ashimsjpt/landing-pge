@@ -48,7 +48,7 @@ h1{
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 100vh;
+    
 }
 .content_right{
     display: flex;
@@ -67,4 +67,47 @@ h1{
 }
 img{
     margin: 100px;
+}
+button{
+    background-color: #3882f6;
+    color:#e5e7e8;
+    align-self: baseline;
+}
+
+h2{
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1f2937;
+    text-align: center;
+}
+ .box_row{
+    display: flex;
+ }
+
+.box_msg{
+border: 2px solid #3882f6;
+width: 120px;
+height:120px;
+border-radius: 5px;
+align-items: center;
+}
+
+.blue_box{
+    display: flex;
+    justify-content: space-evenly;
+   flex-direction: column;
+   align-items: center;
+   margin: 20px;
+}
+
+.information_text{
+text-align: center;
+
+}
+
+.random_info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 }
