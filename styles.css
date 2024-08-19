@@ -72,6 +72,10 @@ button{
     background-color: #3882f6;
     color:#e5e7e8;
     align-self: baseline;
+    width:80px;
+    height: 20px;
+    border-radius: 16px;
+    border:1px white;
 }
 
 h2{
@@ -131,3 +135,44 @@ text-align: center;
     padding: 30px;
 
 }
+.contact{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.blue_container{
+    background-color: #3882f6;
+    color: #f9faf8;
+    width: 75%;
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+}
+.left{
+    width: 70%;
+    margin-left: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.right{
+    width:30%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+
+}
+.last_button{
+    background-color: #3882f6;
+    color:#e5e7e8;
+    align-self: baseline;
+    width:80px;
+    height: 20px;
+    border-radius: 16px;
+    border:1px white solid;
+
+}
+
+
